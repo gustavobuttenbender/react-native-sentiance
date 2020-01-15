@@ -182,7 +182,7 @@ try {
 #### Init status
 Checking if SDK is initialized
 ```javascript
-const initState = await RNSentiance.getInitState();
+const initState = await RNSentiance.getinitstate();
 const isInitialized = initState == "INITIALIZED";
 ```
 
